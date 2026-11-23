@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#10131A"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Túnel inactivo"
+            android:textColor="#8A93A5"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/tunnelButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/start_tunnel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/section_lag"
+            android:textColor="#E6EAF2"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/lagSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="@string/lag_toggle" />
+
+        <Switch
+            android:id="@+id/autoSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/auto_mode" />
+
+        <Switch
+            android:id="@+id/bidiSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bidi_toggle" />
+
+        <Button
+            android:id="@+id/bubbleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/bubble_off" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/section_profile"
+            android:textColor="#E6EAF2"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/profileGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton android:id="@+id/profileSoft" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:text="@string/profile_soft" />
+            <RadioButton android:id="@+id/profileMid" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:text="@string/profile_mid" />
+            <RadioButton android:id="@+id/profileHard" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:text="@string/profile_hard" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/section_log"
+            android:textColor="#E6EAF2"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/logText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="monospace"
+            android:textColor="#5EE1A6"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+</ScrollView>
