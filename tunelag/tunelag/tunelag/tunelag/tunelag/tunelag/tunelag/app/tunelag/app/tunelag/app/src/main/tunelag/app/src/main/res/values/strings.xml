@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TunelLag</string>
+    <string name="start_tunnel">Activar túnel</string>
+    <string name="stop_tunnel">Desactivar túnel</string>
+    <string name="section_lag">Fake lag</string>
+    <string name="lag_toggle">Cortar tráfico del juego</string>
+    <string name="auto_mode">Automático</string>
+    <string name="bidi_toggle">Cortar también la entrada</string>
+    <string name="bubble_off">Burbuja flotante</string>
+    <string name="bubble_on">Burbuja: activada</string>
+    <string name="section_profile">Intensidad</string>
+    <string name="profile_soft">Suave 250-400</string>
+    <string name="profile_mid">Medio 400-600</string>
+    <string name="profile_hard">Agresivo 600-800</string>
+    <string name="section_log">Registro</string>
+</resources>
